@@ -156,7 +156,7 @@ export const siteConfig = {
    ════════════════════════════════════════════════════════════════════════════ */
 
   hero: {
-    bgImage: "https://divinesmiles.com.au/wp-content/uploads/2026/03/Divine-Imagery-scaled-1092x1092.webp",
+    bgImage: "/images/hero/hero-clinic.jpg",
 
     label: "Multispeciality dental clinic in Pune",
 
@@ -391,15 +391,15 @@ export const siteConfig = {
       {
         treatment:    "Smile makeover",
         duration:     "3 visits over 6 weeks",
-        before:       "https://www.merrickdentistry.com/wp-content/uploads/sites/1429/2015/01/case-01-1.jpg",
-        after:        "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=800&q=80",
+        before:       "/images/results/result-1-before.jpg",
+        after:        "/images/results/result-1-after.jpg",
         patientNote:  "Age 31, female",
       },
       {
         treatment:    "Implant restoration",
         duration:     "2 visits over 8 weeks",
-        before:       "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=800&q=80",
-        after:        "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=800&q=80",
+        before:       "/images/results/result-2-before.jpg",
+        after:        "/images/results/result-2-after.jpg",
         patientNote:  "Age 44, male",
       },
     ],

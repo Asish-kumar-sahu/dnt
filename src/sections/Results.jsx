@@ -31,14 +31,12 @@ export default function Results() {
         </div>
 
         <div className="grid md:grid-cols-2 gap-6 mt-8">
-          {[
-            "/images/results/result-1-after.jpg",
-            "/images/results/result-1-before.jpg",
-            "/images/results/result-2-after.jpg",
-            "/images/results/result-2-before.jpg",
-          ].map((image, index) => (
+          {results.items.flatMap((item, itemIndex) => [
+            { image: item.before, alt: `${item.treatment} before`, key: `${itemIndex}-before` },
+            { image: item.after, alt: `${item.treatment} after`, key: `${itemIndex}-after` },
+          ]).map((imageItem) => (
             <div
-              key={index}
+              key={imageItem.key}
               className="rounded-3xl overflow-hidden border"
               style={{
                 background: theme.bgSecondary,
@@ -46,8 +44,8 @@ export default function Results() {
               }}
             >
               <img
-                src={image}
-                alt={`Dental result ${index + 1}`}
+                src={imageItem.image}
+                alt={imageItem.alt}
                 className="w-full h-full object-cover aspect-[4/3]"
               />
             </div>
