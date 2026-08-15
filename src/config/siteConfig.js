@@ -197,7 +197,7 @@ export const siteConfig = {
       line2: "in Camp, Pune.",
     },
 
-    image: "public/images/about/Screenshot 2026-08-15 225654.png",
+    image: "/images/about/about-clinic.jpg",
 
     paragraphs: [
       "Dr. Motadu's Multispeciality Dental Clinic is a trusted dental care clinic in Camp, Pune, known for gentle treatment and modern clinical technology.",
@@ -349,7 +349,7 @@ export const siteConfig = {
         qualifications: "Dental expertise in restorative and cosmetic care",
         experience:  "Trusted dental care",
         specialties: ["Laser dentistry", "Smile design", "Preventive care"],
-        image:       "public/images/doctors/Screenshot 2026-08-15 225152.png",
+        image:       "/images/doctors/doctor-1.jpg",
         bio:         "Dr. Motadu is dedicated to delivering modern, patient-friendly dental care with a strong focus on precision, comfort, and long-lasting results. From routine dental care to cosmetic and restorative treatments, every consultation is tailored to the patient’s needs.",
         instagram:   "#",
         linkedin:    "#",

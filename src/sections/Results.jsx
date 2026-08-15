@@ -32,10 +32,10 @@ export default function Results() {
 
         <div className="grid md:grid-cols-2 gap-6 mt-8">
           {[
-            "public/images/results/result-1-after.jpg",
-            "public/images/results/result-1-before.jpg",
-            "public/images/results/result-2-after.jpg",
-            "public/images/results/result-2-before.jpg",
+            "/images/results/result-1-after.jpg",
+            "/images/results/result-1-before.jpg",
+            "/images/results/result-2-after.jpg",
+            "/images/results/result-2-before.jpg",
           ].map((image, index) => (
             <div
               key={index}
